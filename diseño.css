@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('C:\Users\pc\github-classroom\DSAW-2024-1\parcial-primer-corte-JuanJoseRodriguezF\assets\fonts') format('truetype');
+}
+@keyframes moverDesdeDerecha {
+    from {
+      right: -100px;
+    }
+    to {
+      right: 0;
+    }
+}
+.imagen{
+    position: absolute;
+    right: -100px;
+    animation: moverDesdeDerecha 1s forwards;
+}
+body { 
+    background-color: #36384d;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 60px;
+    padding-bottom: 90px;
+    text-align: left; 
+}
+.container{
+    background-color: white;
+    height: 630px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    color: #36384d; 
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border: 5px solid white;
+    padding-left: 50px;
+    padding-right: 20px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden; 
+}
+.titulo{
+    font-size: 50px;
+    margin-top: 90px;
+}
+.segundo_parrafo{
+    font-size: 12px;
+}
+.attribution{
+    color: white;
+}
+#correo {
+    width: 322px;
+    padding: 13px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+#correo::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+}
+.check{
+    width: 50px;
+    height: 50px;
+}
+.boton_1{
+    text-decoration: none;
+    color: #fff;
+    background-color: #36384d;
+    padding: 15px 60px;
+    margin-top: 20px;
+    border-radius: 12px;
+    display: inline-block;
+    transition: background-color .3s;
+    font-size: 14px;
+    text-align: center;
+}
+
+.boton_1:hover{
+    background: linear-gradient(45deg,#ff5379, #ff693e);
+    color: #fff;
+}
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #36384d;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .4s;
+    --transform: translateX(-100vh);
+    --transition: transform .3s;
+}
+.modal_aparecer{
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity .4s;
+    --transform: translateX(0);
+    --transition: transform .3s;
+}
+.modal__contenedor{
+    margin: auto;
+    width: 23%;
+    max-width: 600px;
+    max-height: 90%;
+    background-color: #fff;
+    padding: 2.5em 3em;
+    display: grid;
+    text-align: left;
+    border-radius: 20px;
+    grid-auto-columns: 100%;
+    color: #36384d;
+    transform: var(--transform);
+    transition:var(--transition);
+}
+.boton_2{
+    text-decoration: none;
+    color: white;
+    background-color: #36384d;
+    padding: 1em 3em;
+    border-radius: 10px;
+    display: inline-block;
+    transition: background-color .3s;
+    font-size: 12px;
+    text-align: center; 
+}
+
+.boton_2:hover{
+    color: #fff;
+    background: linear-gradient(45deg,#ff5379, #ff693e);
+}
+.modal_titulo{
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.modal__parrafo{
+    font-size: 14px;
+    margin-top: 20;
+}
+@media (max-width:321px){ 
+    
+}
