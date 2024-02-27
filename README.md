@@ -28,10 +28,14 @@ Requerimientos:
 
 | Criterio                   | Puntaje |
 | -------------------------- | ------- |
-| Diseño Responsive          | 2       |
-| HTML Semántico             | 1       |
-| Funcionalidad              | 1.5     |
-| Despliegue en Github Pages | 0.5     |
+| Diseño Responsive          | 1.2/2       |
+| HTML Semántico             | 0.4/1       |
+| Funcionalidad              | 1.21.5     |
+| Despliegue en Github Pages | 0.5/0.5     |
+
+Nota parcial: 3.3 x 0.8 -> 2.64
+![image](https://github.com/DSAW-2024-1/parcial-sobre-4-JuanJoseRodriguezF/assets/50994778/d3e0a13a-6b4c-42de-aeb2-8e51b0396fcb)
+
 
 ## LINK
 - [Página web](https://dsaw-2024-1.github.io/parcial-sobre-4-JuanJoseRodriguezF/)
